@@ -16,7 +16,7 @@ const portfolio = [
       'Infisical is an open-source, end-to-end encrypted tool to sync secrets and configs across your team and infrastructure.',
     status: 'active',
     category: 'Open Source',
-    liveLink: 'https:/infisical.com',
+    liveLink: 'https://infisical.com',
     githubLink: 'https://github.com/Infisical/infisical',
     stats: ['Next','Node', 'Go-lang', 'secrets management'],
   },
