@@ -8,6 +8,6 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://lemmy.vercel.app/',
+  site: 'https://lemmymwaura.com/',
   integrations: [mdx(), sitemap()]
 });
