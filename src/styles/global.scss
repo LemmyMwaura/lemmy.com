@@ -1,9 +1,11 @@
 :root {
   --accent: 124, 58, 237;
-  --main-color: #282828;
-  --sec-color: #212121;
+  --main-color: #171515;
+  --sec-color: #2c2c2c;
   --accent-color: #e2b714;
   --font-color: #cbbe9c;
+  --charcoal: #231f20;
+  --brand-coal: #0f0d0e;
 }
 
 *,
@@ -27,6 +29,20 @@ html {
     display: flex;
     align-items: center;
     flex-direction: column;
+    background-image: repeating-linear-gradient(
+        to right,
+        var(--charcoal),
+        var(--charcoal) 1px,
+        transparent 1px,
+        transparent 30px
+      ),
+      repeating-linear-gradient(
+        to bottom,
+        var(--charcoal),
+        var(--charcoal) 1px,
+        transparent 1px,
+        transparent 30px
+      );
 
     code {
       font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
