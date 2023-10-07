@@ -18,12 +18,13 @@ const portfolio = [
     category: 'Open Source',
     liveLink: 'https://infisical.com',
     githubLink: 'https://github.com/Infisical/infisical',
-    stats: ['Next','Node', 'Go-lang', 'secrets management'],
+    stats: ['Next', 'Node', 'Go-lang', 'secrets management'],
   },
   {
     id: generate.next().value,
     name: 'Elewa',
-    description: 'The Elewa Conversational Manager. An open-source chatbot editor and manager which allows to host and use conversational learning projects.',
+    description:
+      'The Elewa Conversational Manager. An open-source chatbot editor and manager which allows to host and use conversational learning projects.',
     status: 'active',
     category: 'Open Source',
     liveLink: '',
@@ -33,7 +34,8 @@ const portfolio = [
   {
     id: generate.next().value,
     name: 'RTC Fire',
-    description: 'A simple WebRTC video chat app with firebase as the signaling server.',
+    description:
+      'A simple WebRTC video chat app with firebase as the signaling server.',
     status: 'active',
     category: 'Personal Project',
     liveLink: 'https://rtc-fire.vercel.app/',
@@ -42,13 +44,13 @@ const portfolio = [
   },
   {
     id: generate.next().value,
-    name: 'StoreFront',
-    description: 'A Headless, Optimized, SEO Rich, Ecommerce StoreFront. Currently Integrated with Shopify.',
+    name: 'Flow-Chart editor',
+    description: 'Drag and Drop FlowChart Editor Built with Next13. ',
     status: 'active',
     category: 'Personal Project',
-    liveLink: 'https://store-front-ivory.vercel.app/',
-    githubLink: 'https://github.com/LemmyMwaura/StoreFront',
-    stats: ['turborepo', 'headless', 'graphql', 'shopify', 'nextjs'],
+    liveLink: '',
+    githubLink: 'https://github.com/LemmyMwaura/flow-editor',
+    stats: ['nextjs 13', 'react-flow', 'zustand'],
   },
   {
     id: generate.next().value,

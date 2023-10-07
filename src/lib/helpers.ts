@@ -6,7 +6,7 @@ const getUpdatedCount = (num:number) : string | number =>  {
 }
 
 const modifyDate = (date: Date): string => {
-  return new Date(date).toLocaleDateString()
+  return date.toLocaleDateString()
 }
 
 export { getUpdatedCount, modifyDate }

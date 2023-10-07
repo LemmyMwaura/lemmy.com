@@ -2,7 +2,7 @@ export const FAQs = [
   {
     question: 'What your name?',
     answer:
-      'My official name is Stephen N Mwaura, but I prefer to go by the name `Lemmy`. This nickname was given to me by my aunt when I was quite young, and it has become the name I use by default.',
+      'Officialy Stephen N. Mwaura, but I prefer to go by the name `Lemmy`.',
   },
   {
     question: 'What do you hope to achieve in your career?',
@@ -21,6 +21,6 @@ export const FAQs = [
   {
     question: 'What are you working on nowadays?',
     answer:
-      "I am currently building an open-source chatbot editor at Elewa. During my free time, I actively contribute to various open-source projects that align with my interests.",
+      "Currently building an open-source chatbot editor at Elewa. During my free time, I actively contribute to various open-source projects that align with my interests.",
   },
 ]
