@@ -9,17 +9,17 @@ function* idGenerator() {
 const generate = idGenerator()
 
 const portfolio = [
-  {
-    id: generate.next().value,
-    name: 'Infisical',
-    description:
-      'Infisical is an open-source, end-to-end encrypted tool to sync secrets and configs across your team and infrastructure.',
-    status: 'active',
-    category: 'Open Source',
-    liveLink: 'https://infisical.com',
-    githubLink: 'https://github.com/Infisical/infisical',
-    stats: ['Next', 'Node', 'Go-lang', 'secrets management'],
-  },
+  // {
+  //   id: generate.next().value,
+  //   name: 'Infisical',
+  //   description:
+  //     'Infisical is an open-source, end-to-end encrypted tool to sync secrets and configs across your team and infrastructure.',
+  //   status: 'active',
+  //   category: 'Open Source',
+  //   liveLink: 'https://infisical.com',
+  //   githubLink: 'https://github.com/Infisical/infisical',
+  //   stats: ['Next', 'Node', 'Go-lang', 'secrets management'],
+  // },
   {
     id: generate.next().value,
     name: 'Elewa',
@@ -71,6 +71,17 @@ const portfolio = [
     liveLink: 'https://sudoku-gg.netlify.app/',
     githubLink: 'https://github.com/LemmyMwaura/Sudoku-Solver-Visualizer',
     stats: ['React', 'Vite'],
+  },
+    {
+    id: generate.next().value,
+    name: 'Password Locker TUI',
+    description:
+      'A simple passwword management tool (CLI)',
+    status: 'active',
+    category: 'Personal Project',
+    liveLink: '',
+    githubLink: 'https://github.com/LemmyMwaura/password_locker_tui',
+    stats: ['Python', 'CLI', 'Rich'],
   },
 ]
 

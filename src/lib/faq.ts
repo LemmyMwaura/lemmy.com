@@ -2,7 +2,7 @@ export const FAQs = [
   {
     question: 'What your name?',
     answer:
-      'Officialy Stephen N. Mwaura, but I prefer to go by the name `Lemmy`.',
+      'Officially Stephen N. Mwaura, but I prefer to go by the name `Lemmy`.',
   },
   {
     question: 'What do you hope to achieve in your career?',
@@ -16,7 +16,7 @@ export const FAQs = [
   },
   {
     question: "What's your view on Typesafety?",
-    answer: 'Never sacrifice typesafety. lol',
+    answer: 'Never sacrifice Typesafety.',
   },
   {
     question: 'What are you working on nowadays?',

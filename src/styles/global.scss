@@ -3,7 +3,7 @@
   --main-color: #171515;
   --sec-color: #2c2c2c;
   --accent-color: #e2b714;
-  --font-color: #cbbe9c;
+  --font-color: hsl(0, 0%, 85%);
   --charcoal: #231f20;
   --brand-coal: #0f0d0e;
 }
@@ -18,7 +18,6 @@
 
 html {
   font-family: 'Lexend Deca', sans-serif;
-  // font-family: "Roboto Mono", monospace;
   background-color: var(--main-color);
   color: var(--font-color);
   overflow-x: hidden;
@@ -60,19 +59,19 @@ html {
     }
 
     &::-webkit-scrollbar-thumb {
-      background: hsl(43, 31%, 70%);
+      background:  hsl(0, 0%, 85%);
 
       &:hover {
-        background: hsl(44, 31%, 42%);
+        background: hsl(0, 0%, 65%);
       }
     }
   }
 }
 
 // firefox
-@supports (scrollbar-color: #cabd9b #212121) {
+@supports (scrollbar-color: hsl(0, 0%, 85%) #212121) {
   * {
-    scrollbar-color: #cabd9b #212121;
+    scrollbar-color: hsl(0, 0%, 85%) #212121;
     scrollbar-width: thin;
   }
 }
