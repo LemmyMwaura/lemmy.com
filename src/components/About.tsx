@@ -3,43 +3,20 @@ export const About = () => {
     <>
       <div className="flex flex-col gap-2">
         <div>
-          I&apos;m a Passionate tech enthusiast and developer with a strong
-          foundation in modern day JAMstack full-stack development with (SSG,
-          SSR and ISR), My expertise includes advanced frontend web development and a
-          solid understanding of stateless backends.
+          I&apos;m a full-stack developer specializing in modern JAMstack
+          architecture, with deep expertise in SSG, SSR, and ISR patterns. I
+          build scalable applications across the entire stack—from intuitive
+          frontend experiences to robust backend systems (both stateless and
+          stateful) and cloud-native infrastructure.
         </div>
 
         <div>
-          I&apos;m profficient in{' '}
+          I work primarily with{' '}
           <span className="bg-blue/90 rounded-md p-[0.2rem]">
             JavaScript/TypeScript, Python, and Go,
           </span>{' '}
-          I&apos;m also passionate about open-source and actively contribute to
-          projects that align with my interests.
-        </div>
-
-        <div>
-          My side-quests include{' '}
-          <span className="bg-blue/90 rounded-md p-[0.2rem]">
-            cloud enginnering
-          </span>{' '}
-          (because who doesn’t love playing with the sky?),{' '}
-          <span className="bg-blue/90 rounded-md p-[0.2rem]">
-            infrastructure provisioning
-          </span>{' '}
-          (terraforming like a pro),{' '}
-          <span className="bg-blue/90 rounded-md p-[0.2rem]">
-            internal tooling
-          </span>{' '}
-          (building gadgets for my coding Batcave),{' '}
-          <span className="bg-blue/90 rounded-md p-[0.2rem]">
-            frontend wizardry
-          </span>
-          and{' '}
-          <span className="bg-blue/90 rounded-md p-[0.2rem]">
-            writing stellar documentation
-          </span>{' '}
-          (because every epic needs a good story).
+          and I&apos;m an active contributor to open-source projects that push
+          the boundaries of what&apos;s possible in modern web development.
         </div>
       </div>
     </>
